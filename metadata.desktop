@@ -1,0 +1,14 @@
+[SddmGreeterTheme]
+Name=NX Theme
+Namep[nl]=NX-Thema
+
+Description=A theme inspired by the Nintendo Switch
+Description[nl]=Een theme geinspireerd door de Nintendo Switch
+Preview=screenshot.png
+MainScript=Main.qml
+Author=Chris Josten
+License=lgpl-v3
+Type=sddm-theme
+ConfigFile=theme.conf
+Theme-Id=nx-sddm
+Theme-API=2.0
