@@ -1,5 +1,5 @@
 import QtQuick 2.0
-import QtGamepad 1.0
+//import QtGamepad 1.0
 import SddmComponents 2.0
 
 import "components"

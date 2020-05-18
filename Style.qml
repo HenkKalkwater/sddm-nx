@@ -24,4 +24,5 @@ QtObject {
     property int fontNormalSize: 24
     
     property string background: config.background ? config.background : Qt.resolvedUrl("bg.png")
+    property bool virtualKeyboard: true
 }
