@@ -1,4 +1,4 @@
-import QtQuick 2.0
+import QtQuick 2.7
 //import QtGamepad 1.0
 import SddmComponents 2.0
 
@@ -52,7 +52,7 @@ Rectangle {
     
     SequentialAnimation {
         id: startupAnim
-        running: true
+        running: _userSelector != null
         ColorAnimation {
             target: root
             property: "color"
@@ -71,6 +71,7 @@ Rectangle {
     
     Connections {
         target: sddm
+        enabled: _userSelector != null
         onLoginFailed: {
             errorDialog.show()
         }
