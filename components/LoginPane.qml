@@ -16,6 +16,7 @@ Item {
     property int sessionIndex
     property bool _open: false
     property string _user
+    property string _realUser
     
     // Gives a blur effect to the background
     Item {
@@ -77,7 +78,8 @@ Item {
                             text: model.realName
                             icon.source: model.icon
                             onClicked: {
-                                _user = model.realName
+                                _user = model.name
+                                _realUser = model.realName
                                 showPasswordOverlay()
                             }
                         }
@@ -198,7 +200,7 @@ Item {
         opacity: enabled ? 1 : 0
         Behavior on opacity { NumberAnimation {} }
         
-        username: _user
+        username: _realUser
         
         onPasswordEntered: {
             hidePasswordOverlay()
