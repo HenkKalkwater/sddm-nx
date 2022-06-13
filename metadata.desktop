@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2020 Chris Josten
+#
+# SPDX-License-Identifier: BSL-1.0
+
 [SddmGreeterTheme]
 Name=NX Theme
 Namep[nl]=NX-Thema
@@ -7,7 +11,7 @@ Description[nl]=Een theme geinspireerd door de Nintendo Switch
 Preview=screenshot.png
 MainScript=Main.qml
 Author=Chris Josten
-License=lgpl-v3
+License=BSL-1.0
 Type=sddm-theme
 ConfigFile=theme.conf
 Theme-Id=nx-sddm

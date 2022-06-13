@@ -1,1 +1,5 @@
+# SPDX-FileCopyrightText: 2020 Chris Josten
+#
+# SPDX-License-Identifier: BSL-1.0
+
 singleton Style 1.0 Style.qml 

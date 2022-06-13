@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2020 Chris Josten
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # SDDM NX Theme - Nintendo Switch inspired theme
 
 Nintendo Switch inspired, touchscreen optimised theme for SDDM.

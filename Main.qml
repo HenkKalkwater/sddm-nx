@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2020 Chris Josten
+//
+// SPDX-License-Identifier: BSL-1.0
+
 import QtQuick 2.7
 //import QtGamepad 1.0
 import SddmComponents 2.0

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2020 Chris Josten
+//
+// SPDX-License-Identifier: BSL-1.0
+
 import QtQuick 2.6
 import QtGraphicalEffects 1.6
 
